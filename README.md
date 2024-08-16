@@ -1,2 +1,2 @@
 # RPCS
-Ranking of Pathogenic and conservation scores based on its ability to separating driver from non-driver mutations in head and neck cancer
+Ranking of Pathogenic and Conservation Scoring Algorithms (PCSAs) based on their ability to separating somatic driver mutations from non-driver mutations in head and neck cancer.
