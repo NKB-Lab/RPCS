@@ -1,7 +1,7 @@
 
 ## Processing input data
 
-cat path_to/driver_dataset/driver.txt > Input_"$line".txt
+cat path_to/driver_dataset/driver.txt > Input_Iteration1.txt
 cat path_to/non-driver_dataset/Iteration1.txt | sed 1d >> Input_Iteration1.txt
 
 ## applying RFE
