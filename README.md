@@ -48,6 +48,7 @@ python3 run_models.py test.csv codes/top-11_PCSAs/models/imputer_model.pkl codes
 python3 run_models.py test.csv codes/top-11_PCSAs/models/imputer_model.pkl codes/top-11_PCSAs/models/XGBoost.pkl test_XGB
 
 Input data structure:
+
 Chromosome_Start_Ref_Alt,MutationAssessor_rankscore,PROVEAN_converted_rankscore,MetaLR_rankscore,M-CAP_rankscore,MutPred_rankscore,MVP_rankscore,DEOGEN2_rankscore,VARITY_R_rankscore,AlphaMissense_rankscore,fathmm-MKL_coding_rankscore,integrated_fitCons_rankscore,Status
 19_13341002_C_T,0.53209,0.26200,0.98780,0.93624,0.79585,0.89338,0.76696,0.29084,0.74616,0.76055,0.61202,Yes
 18_45374930_G_C,0.95212,0.95870,0.98763,0.93925,0.94965,0.95975,0.99935,0.95671,0.96936,0.95980,0.92422,Yes
