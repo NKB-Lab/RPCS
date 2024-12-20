@@ -1,8 +1,8 @@
 
 python3 run_models.py test.csv imputer_model.pkl RandomForest.pkl test_RF
-python3 run_models.py test.csv imputer_model.pkl LogisticRegression.pkl test_RF
-python3 run_models.py test.csv imputer_model.pkl SVM.pkl test_RF
-python3 run_models.py test.csv imputer_model.pkl XGBoost.pkl test_RF
+python3 run_models.py test.csv imputer_model.pkl LogisticRegression.pkl test_LR
+python3 run_models.py test.csv imputer_model.pkl SVM.pkl test_SVM
+python3 run_models.py test.csv imputer_model.pkl XGBoost.pkl test_XGB
 
 Input data structure:
 Chromosome_Start_Ref_Alt,MutationAssessor_rankscore,PROVEAN_converted_rankscore,MetaLR_rankscore,M-CAP_rankscore,MutPred_rankscore,MVP_rankscore,DEOGEN2_rankscore,VARITY_R_rankscore,AlphaMissense_rankscore,fathmm-MKL_coding_rankscore,integrated_fitCons_rankscore,Status
